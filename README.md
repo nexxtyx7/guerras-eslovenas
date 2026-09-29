@@ -1,19 +1,13 @@
-# Resenha OS
+# Guerras Eslovenas — Login
 
-Projeto experimental de um sistema operacional fictício para a "resenha".
+Tela inicial premium para o projeto "Guerras Eslovenas".
 
-## Recursos atuais
-- Desktop com barra de tarefas
-- Menu iniciar
-- Banco Central da Resenha
-- Indicadores econômicos fictícios
-- Bloco de notas com salvamento local
-- Configurações
-- Janelas de aplicativos
-- Layout responsivo
+## Arquivos
+- `index.html` — estrutura da tela
+- `style.css` — visual e responsividade
+- `script.js` — interações do formulário
 
-## Como abrir
-Basta abrir `index.html` no navegador.
+## Observação
+A autenticação ainda é apenas visual/demonstrativa. Para login real, será necessário conectar um backend ou serviço de autenticação.
 
-## Próximos passos
-Podemos adicionar login, perfis da galera, moeda entre usuários, PIX fictício, mercado, bolsa de valores, notificações, temas, mais aplicativos e um backend quando necessário.
+Abra `index.html` para visualizar.
