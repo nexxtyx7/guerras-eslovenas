@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resenha OS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="boot" class="boot">
+    <div class="boot-logo">R</div>
+    <h1>RESENHA OS</h1>
+    <p>Iniciando sistema...</p>
+    <div class="loader"><span></span></div>
+  </div>
+
+  <main id="desktop" class="desktop hidden">
+    <div class="wallpaper">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="brand"><span class="brand-dot"></span> RESENHA OS</div>
+      <div class="top-status">
+        <span id="network">● Online</span>
+        <span id="clock">00:00</span>
+      </div>
+    </header>
+
+    <section class="desktop-area">
+      <button class="app-icon" data-app="bank">
+        <span class="icon purple">₿</span>
+        <span>Banco Central</span>
+      </button>
+      <button class="app-icon" data-app="stats">
+        <span class="icon blue">▥</span>
+        <span>Indicadores</span>
+      </button>
+      <button class="app-icon" data-app="notes">
+        <span class="icon yellow">✎</span>
+        <span>Notas</span>
+      </button>
+      <button class="app-icon" data-app="settings">
+        <span class="icon gray">⚙</span>
+        <span>Configurações</span>
+      </button>
+    </section>
+
+    <div id="windows"></div>
+
+    <footer class="taskbar">
+      <button class="start-btn" id="startBtn"><span>R</span></button>
+      <div class="task-apps" id="taskApps"></div>
+      <div class="task-right">
+        <span>◉</span>
+        <span>⌁</span>
+        <strong id="taskClock">00:00</strong>
+      </div>
+    </footer>
+
+    <div id="startMenu" class="start-menu hidden">
+      <div class="start-head">
+        <div class="profile">R</div>
+        <div><strong>Resenha OS</strong><small>Conta local</small></div>
+      </div>
+      <div class="menu-section">APLICATIVOS</div>
+      <button data-app="bank">₿ <span>Banco Central</span></button>
+      <button data-app="stats">▥ <span>Indicadores</span></button>
+      <button data-app="notes">✎ <span>Notas</span></button>
+      <button data-app="settings">⚙ <span>Configurações</span></button>
+      <div class="menu-footer">Resenha OS 1.0 • Projeto da galera</div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
